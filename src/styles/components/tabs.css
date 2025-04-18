@@ -1,0 +1,17 @@
+@layer components {
+  .tabs {
+    @apply flex border-b border-gray-300;
+  }
+
+  .tab {
+    @apply px-4 py-2 cursor-pointer text-gray-700 hover:text-blue-600;
+  }
+
+  .tab-active {
+    @apply border-b-2 border-blue-600 font-semibold text-blue-600;
+  }
+
+  .tab-panel {
+    @apply mt-4;
+  }
+}

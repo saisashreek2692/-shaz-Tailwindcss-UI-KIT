@@ -1,0 +1,21 @@
+@layer components {
+  .alert {
+    @apply px-4 py-3 rounded relative text-white mb-4;
+  }
+
+  .alert-success {
+    @apply bg-green-500;
+  }
+
+  .alert-error {
+    @apply bg-red-500;
+  }
+
+  .alert-warning {
+    @apply bg-yellow-500 text-black;
+  }
+
+  .alert-info {
+    @apply bg-blue-500;
+  }
+}

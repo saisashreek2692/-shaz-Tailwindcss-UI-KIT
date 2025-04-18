@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@import "./components/accordion.css";
+@import "./components/alert.css";
+@import "./components/badge.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/input.css";
+@import "./components/modal.css";
+@import "./components/navbar.css";
+@import "./components/tabs.css";
+@import "./components/tooltip.css";
+@tailwind utilities;

@@ -1,0 +1,13 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-semibold text-white bg-blue-600 hover:bg-blue-700;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-md;
+  }
+
+  .input {
+    @apply border border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+}

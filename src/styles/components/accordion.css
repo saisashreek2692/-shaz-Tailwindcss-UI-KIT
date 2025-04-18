@@ -1,0 +1,17 @@
+@layer components {
+  .accordion {
+    @apply border border-gray-300 rounded mb-4;
+  }
+
+  .accordion-header {
+    @apply px-4 py-2 bg-gray-100 cursor-pointer font-medium;
+  }
+
+  .accordion-content {
+    @apply px-4 py-2 hidden;
+  }
+
+  .accordion-open .accordion-content {
+    @apply block;
+  }
+}

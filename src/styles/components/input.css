@@ -1,0 +1,5 @@
+@layer components {
+  .input {
+    @apply px-3 py-2 border border-gray-300 rounded w-full focus:ring-2 focus:ring-blue-500;
+  }
+}

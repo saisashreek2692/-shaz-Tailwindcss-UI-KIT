@@ -1,0 +1,9 @@
+@layer components {
+  .navbar {
+    @apply flex items-center justify-between px-6 py-4 bg-gray-100 shadow;
+  }
+
+  .nav-item {
+    @apply text-gray-800 hover:text-blue-600 px-4;
+  }
+}

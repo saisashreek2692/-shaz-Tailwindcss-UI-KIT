@@ -1,0 +1,17 @@
+@layer components {
+  .modal {
+    @apply fixed inset-0 flex items-center justify-center z-50;
+  }
+
+  .modal-overlay {
+    @apply fixed inset-0 bg-black opacity-50;
+  }
+
+  .modal-content {
+    @apply bg-white rounded-lg shadow-lg p-6 max-w-lg w-full z-10;
+  }
+
+  .modal-close {
+    @apply absolute top-2 right-2 text-gray-600 hover:text-gray-800;
+  }
+}

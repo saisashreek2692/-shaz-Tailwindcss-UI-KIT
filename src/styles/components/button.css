@@ -1,0 +1,9 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-semibold text-white bg-blue-600 hover:bg-blue-700 transition;
+  }
+
+  .btn-outline {
+    @apply px-4 py-2 rounded border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white;
+  }
+}

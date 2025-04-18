@@ -1,0 +1,13 @@
+@layer components {
+  .tooltip {
+    @apply relative cursor-pointer;
+  }
+
+  .tooltip-text {
+    @apply absolute z-10 bottom-full mb-2 text-sm bg-gray-700 text-white p-2 rounded hidden;
+  }
+
+  .tooltip:hover .tooltip-text {
+    @apply block;
+  }
+}

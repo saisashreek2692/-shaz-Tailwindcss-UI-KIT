@@ -1,0 +1,13 @@
+@layer components {
+  .card {
+    @apply p-6 rounded-lg shadow-md bg-white;
+  }
+
+  .card-header {
+    @apply text-xl font-semibold mb-2;
+  }
+
+  .card-body {
+    @apply text-gray-700;
+  }
+}
